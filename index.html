@@ -37,7 +37,7 @@
             }
             a {
                 text-decoration: none;
-                color: rgb(0, 0, 0);
+                color: rgb(0, 255, 64);
             }
         
             /* main container area beneath menu */
@@ -67,6 +67,18 @@
                 margin: 0px;
             }
         </style>
+        <script>
+             //password code
+var response = prompt("password?");
+
+if (response === "abcd") {
+  alert("Welcome!"); 
+}
+else {
+  alert("Go Away!");
+  window.location.assign("/blank.html"); 
+}
+        </script>
     </head>
     <body>
         <!-- All content goes here -->
